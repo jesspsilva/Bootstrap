@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+
+<head>
+    <meta charset="utf-8">
+    <title>Name of company</title>
+    <!--Design responsivo-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="CSS\style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+</head>
+
+
+<body>
+
+    <!--Menu superior-->
+    <header style="position: fixed; width: 100%; z-index: 1;">
+        <nav class="navbar navbar-expand-lg navbar-dark d-flex flex-row justify-content-between">
+            <div class="container-fluid">
+                <!--Menu hamburguer-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" style="border-color: transparent;">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <!--Título-->
+                <a class="navbar-brand order-sm-2 order-md-1" href="#">Name of Company</a>
+                <!--Botão de Pesquisa - Lupa-->
+                <div class="order-sm-3 order-md-3 p-2">
+                    <button type="button" data-toggle="collapse" data-target=".search"><i data-feather="search"></i></button>
+                </div>
+                <!--Div de Pesquisa-->
+                <div class="collapse search order-sm-4 order-md-4">
+                    <form class="form-inline my-2 my-lg-0">
+                        <!--Input da pesquisa-->
+                        <div class="md-form mt-0" style="margin-right: 10px">
+                            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                        </div>
+                        <!--Botão para submit-->
+                        <button class="btn my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+
+
+                <!--Menu hamburguer-->
+                <div class="collapse navbar-collapse order-sm-1 order-md-2" id="navbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link " href="# ">Homepage</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="# ">About us</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="# ">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Fim do menu-->
+        <!--Navegação-->
+        <div class="container-fluid">
+            <div class="row" style="background-color:rgb(0, 150, 136); border-top: 1px solid rgb(0, 150, 136);">
+                <div class="col-6 text-center active">
+                    <a href="#" target="_self">What we do</a>
+                </div>
+                <div class="col-6 text-center ">
+                    <a href="#" target="_self">Our work</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!--Imagem/Div-->
+        <div class="container-fluid" style="background-color: rgba(82, 199, 184, 0.3); height: 25em;">
+        </div>
+        <div class="container-fluid">
+            <div class="container-fluid">
+                <p class="text mt-4 ml-2">Blog</p>
+            </div>
+            <!--Grelha-->
+            <div class="carousel days" data-flickity='{ "contain": true, "pageDots": false, "prevNextButtons": false }'>
+                <div class="carousel-cell">
+                    <a href="secondpage.html"></a>
+                </div>
+                <div class="carousel-cell">
+                    <a href="#"></a>
+                </div>
+                <div class="carousel-cell">
+                    <a href="#"></a>
+                </div>
+                <div class="carousel-cell">
+                    <a href="#"></a>
+                </div>
+                <div class="carousel-cell">
+                    <a href="#"></a>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <p class="text mt-4 ml-2">Events</p>
+            </div>
+            <!--Grelha-->
+            <div class="carousel" data-flickity='{ "contain": true, "pageDots": false, "prevNextButtons": false }'>
+                <div class="carousel-cell">
+                    <a href="#"></a>
+                </div>
+                <div class="carousel-cell">
+                    <a href="#"></a>
+                </div>
+                <div class="carousel-cell">
+                    <a href="#"></a>
+                </div>
+                <div class="carousel-cell">
+                    <a href="#"></a>
+                </div>
+                <div class="carousel-cell">
+                    <a href="#"></a>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <p class="text mt-4 ml-2">Partners</p>
+            </div>
+            <!--Grelha-->
+            <div class="carousel" data-flickity='{ "contain": true, "pageDots": false, "prevNextButtons": false }'>
+                <div class="carousel-cell">
+                    <a href="#"></a>
+                </div>
+                <div class="carousel-cell">
+                    <a href="#"></a>
+                </div>
+                <div class="carousel-cell">
+                    <a href="#"></a>
+                </div>
+                <div class="carousel-cell">
+                    <a href="#"></a>
+                </div>
+                <div class="carousel-cell">
+                    <a href="#"></a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="index">
+        <p>&copy Copyright Jéssica Silva</p>
+        <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+        <script>
+            feather.replace()
+        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    </footer>
+
+</body>
+
+</html>

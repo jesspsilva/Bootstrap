@@ -1,0 +1,164 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-expand-lg {
+    background-color: rgb(0, 103, 91);
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    border-color: transparent;
+    display: inline-block;
+}
+
+button:hover {
+    color: rgb(0, 150, 136);
+}
+
+.row .col-6 a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    display: block;
+    padding-top: 10px;
+}
+
+.row .active {
+    border-bottom: 4px solid rgb(0, 103, 91);
+    font-weight: bold;
+}
+
+.container-fluid .row {
+    height: 50px;
+}
+
+.container-fluid .col-6:hover {
+    font-weight: bold;
+    border-bottom: 4px solid rgb(0, 103, 91);
+}
+
+.text {
+    color: rgb(0, 103, 91);
+    font-weight: bold;
+    font-size: 16px;
+    border-bottom: 2px solid rgba(0, 150, 136, 0.7);
+}
+
+.carousel {
+    margin-left: 23px;
+}
+
+.carousel-cell {
+    width: 40%;
+    height: 170px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: rgba(82, 199, 184, 0.3);
+    counter-increment: carousel-cell;
+}
+
+.carousel-cell:hover {
+    background-color: rgba(82, 199, 184, 0.5);
+    transition: 0.3s;
+}
+
+.days .carousel-cell:before {
+    display: block;
+    text-align: center;
+    content: "Blog entrie " counter(carousel-cell);
+    line-height: 300px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 150, 136);
+}
+
+.carousel-cell a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* edit: added z-index */
+    z-index: 1;
+}
+
+.container-fluid .rectangulo {
+    height: 120px;
+}
+
+.container-fluid .rectangulo .col-4 {
+    border-radius: 5px;
+    background-color: rgba(82, 199, 184, 0.3);
+    height: 100%;
+    margin-top: 20px;
+}
+
+.container-fluid .rectangulo .col-4:hover {
+    background-color: rgba(82, 199, 184, 0.5);
+    transition: 0.3s;
+}
+
+.descricao {
+    font-size: 14px;
+    margin-top: 25px;
+    position: relative;
+    float: left;
+}
+
+.descricao p {
+    position: absolute;
+    left: 0;
+    color: rgb(0, 103, 91);
+}
+
+.btn {
+    background-color: rgb(0, 150, 136);
+    color: white;
+}
+
+.btn:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    color: rgb(0, 150, 136);
+}
+
+input:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+.list-group-flush .list-group-item {
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+}
+
+.list-group-item {
+    border-top-color: rgb(0, 103, 91) !important;
+}
+
+.list-group-item-action {
+    border-bottom: 1px solid rgb(0, 150, 136) !important;
+}
+
+.list-group-item-action:hover {
+    background-color: rgba(0, 150, 136, 0.2) !important;
+}
+
+.list-group-flush:last-child .list-group-item:last-child {
+    border-bottom: 0 !important;
+}
+
+.index {
+    width: 100%;
+    height: 4em;
+    margin-top: 2em;
+    background-color: rgb(0, 103, 91);
+    text-align: center;
+    color: white;
+    padding-top: 1em;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+
+<head>
+    <meta charset="utf-8">
+    <title>Name of company</title>
+    <!--Design responsivo-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="CSS\style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+
+<body>
+    <header>
+        <!--Menu superior-->
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+            <!--Página anterior-->
+            <a href="secondpage.html" role="button" aria-pressed="true"><i style="color: white; margin: 0.5em 0.8em 0 0.8em; padding: 0;"data-feather="arrow-left"></i></a>
+            <!--Título-->
+            <p class="navbar-brand" style="margin: 0; padding: 0;">Entrie 01</p>
+        </nav>
+    </header>
+    <!--Fim do menu-->
+    <!--Grelha-->
+    <main>
+        <div class="container-fluid">
+            <!--Rectangulo-->
+            <div class="row row-eq-height d-flex justify-content-center rectangulo">
+                <div class="col-4 col-md-5"></div>
+                <div class="col-4 offset-1 col-md-5"></div>
+            </div>
+            <!--Descricao-->
+            <div class="row row-eq-height d-flex justify-content-center">
+                <div class="col-4 col-md-5 descricao"></div>
+                <div class="col-4 col-md-5 offset-1 descricao"></div>
+            </div>
+            <!--Rectangulo-->
+            <div class="row row-eq-height d-flex justify-content-center rectangulo">
+                <div class="col-4 col-md-5 d-flex align-items-end"></div>
+                <div class="col-4 offset-1 col-md-5"></div>
+            </div>
+            <!--Descricao-->
+            <div class="row row-eq-height d-flex justify-content-center">
+                <div class="col-4 col-md-5 descricao"></div>
+                <div class="col-4 col-md-5 offset-1 descricao"></div>
+            </div>
+            <!--Rectangulo-->
+            <div class="row row-eq-height d-flex justify-content-center rectangulo">
+                <div class="col-4 col-md-5"></div>
+                <div class="col-4 offset-1 col-md-5"></div>
+            </div>
+            <!--Descricao-->
+            <div class="row row-eq-height d-flex justify-content-center">
+                <div class="col-4 col-md-5 descricao"></div>
+                <div class="col-4 col-md-5 offset-1 descricao"></div>
+            </div>
+            <!--Rectangulo-->
+            <div class="row row-eq-height d-flex justify-content-center rectangulo">
+                <div class="col-4 col-md-5"></div>
+                <div class="col-4 offset-1 col-md-5"></div>
+            </div>
+            <!--Descricao-->
+            <div class="row row-eq-height d-flex justify-content-center">
+                <div class="col-4 col-md-5 descricao"></div>
+                <div class="col-4 col-md-5 offset-1 descricao"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <script src=" https://unpkg.com/feather-icons/dist/feather.min.js "></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+        <script>
+            feather.replace()
+        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+        <script>
+            var col = document.getElementsByClassName("descricao");
+
+            $(col).each(function(i) {
+                $(this).html(('<p>' + 'Description 0') + (i + 1) + '</p>');
+            });
+        </script>
+    </footer>
+
+</body>
+
+</html>

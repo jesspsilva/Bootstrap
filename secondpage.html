@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+
+<head>
+    <meta charset="utf-8">
+    <title>Name of company</title>
+    <!--Design responsivo-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="CSS\style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+
+<body>
+    <header>
+        <!--Menu superior-->
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark d-flex flex-row justify-content-left">
+            <!--Página anterior-->
+            <a href="index.html" role="button" aria-pressed="true"><i style="color: white; margin: 0.5em 0.8em 0 0.8em; padding: 0;"data-feather="arrow-left"></i></a>
+            <!--Título-->
+            <p class="navbar-brand" style="margin: 0; padding: 0;">Blog Entries</p>
+        </nav>
+    </header>
+    <!--Fim do menu-->
+    <!--Lista-->
+    <main>
+        <div class="container-fluid">
+            <ul class="list-group list-group-flush"></ul>
+        </div>
+    </main>
+
+    <footer>
+        <script src=" https://unpkg.com/feather-icons/dist/feather.min.js "></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+        <script>
+            feather.replace()
+        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+        <script>
+            var a = document.getElementsByTagName("a");
+            for (var i = 1; i < 10; i++) {
+                $('ul.list-group').append('<a class="list-group-item list-group-item-action" href="#">' + 'Entrie 0' + i + '</a>');
+                a[i].href = 'entrie0' + i + '.html';
+            }
+        </script>
+    </footer>
+
+</body>
+
+</html>
